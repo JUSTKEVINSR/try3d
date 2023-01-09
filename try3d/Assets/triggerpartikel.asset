@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: triggerpartikel
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-344.0,"y":-160.0},"guid":"1e7754e3-fb6a-4dfa-9032-14bab17aedbe","$version":"A","$type":"Bolt.OnCollisionEnter","$id":"9"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":144.0,"y":-93.0},"guid":"21503292-f355-4e88-bf14-c148f2fa1f6a","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"type":"System.String","value":{"$content":"BAZINGGA","$type":"System.String"},"defaultValues":{},"position":{"x":-28.0,"y":58.0},"guid":"c1ccdcb0-0bb9-4ed5-9158-edf18331c626","$version":"A","$type":"Bolt.Literal","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"4a29d76a-0b70-43ff-8626-a19545b44b25","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"%message","guid":"a69b9030-137c-4b92-9840-c9d7b1073056","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
